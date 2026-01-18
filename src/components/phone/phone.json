@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_phone_phones",
+  "info": {
+    "displayName": "Phone"
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "biginteger"
+    }
+  },
+  "config": {}
+}

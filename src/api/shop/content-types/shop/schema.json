@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shops",
+  "info": {
+    "singularName": "shop",
+    "pluralName": "shops",
+    "displayName": "Shop"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "reviews": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "lat": {
+      "type": "decimal"
+    },
+    "lng": {
+      "type": "decimal"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "phoneNumbers": {
+      "type": "component",
+      "component": "phone.phone",
+      "repeatable": true
+    },
+    "googleMapUrl": {
+      "type": "string"
+    }
+  }
+}
