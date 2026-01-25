@@ -19,6 +19,9 @@
     },
     "seoDescription": {
       "type": "text"
+    },
+    "webmasterTag": {
+      "type": "string"
     }
   }
 }
