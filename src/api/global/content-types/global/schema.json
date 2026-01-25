@@ -13,6 +13,12 @@
   "attributes": {
     "GTM_ID": {
       "type": "string"
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
     }
   }
 }

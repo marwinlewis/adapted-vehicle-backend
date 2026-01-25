@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "pages",
   "info": {
     "singularName": "page",
@@ -11,6 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
     "title": {
       "type": "string",
       "required": true,
@@ -25,7 +30,8 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "title"
+      "targetField": "label",
+      "required": true
     }
   }
 }
