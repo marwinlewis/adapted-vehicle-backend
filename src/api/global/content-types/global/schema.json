@@ -14,14 +14,13 @@
     "GTM_ID": {
       "type": "string"
     },
-    "seoTitle": {
-      "type": "string"
-    },
-    "seoDescription": {
-      "type": "text"
-    },
     "webmasterTag": {
       "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "component": "seo.seo",
+      "repeatable": false
     }
   }
 }
