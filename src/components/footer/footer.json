@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "aboutTitle": {
+      "type": "string"
+    },
+    "aboutContent": {
+      "type": "blocks"
+    },
+    "quickLinkTitle": {
+      "type": "string"
+    },
+    "quickLinks": {
+      "type": "component",
+      "component": "footer.link-collection",
+      "repeatable": true
+    },
+    "contact": {
+      "type": "component",
+      "component": "footer.link-collection",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

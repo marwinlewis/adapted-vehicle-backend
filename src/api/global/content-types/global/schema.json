@@ -11,6 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "title": {
+      "type": "text"
+    },
     "GTM_ID": {
       "type": "string"
     },
@@ -20,6 +23,11 @@
     "seo": {
       "type": "component",
       "component": "seo.seo",
+      "repeatable": false
+    },
+    "footer": {
+      "type": "component",
+      "component": "footer.footer",
       "repeatable": false
     }
   }
