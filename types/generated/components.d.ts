@@ -8,9 +8,10 @@ export interface FooterFooter extends Struct.ComponentSchema {
   attributes: {
     aboutContent: Schema.Attribute.Blocks;
     aboutTitle: Schema.Attribute.String;
-    contact: Schema.Attribute.Component<'footer.link-collection', false>;
+    contactLinks: Schema.Attribute.Component<'footer.link-collection', true>;
+    contactTitle: Schema.Attribute.String;
     quickLinks: Schema.Attribute.Component<'footer.link-collection', true>;
-    quickLinkTitle: Schema.Attribute.String;
+    quickLinksTitle: Schema.Attribute.String;
   };
 }
 
@@ -20,7 +21,7 @@ export interface FooterLinkCollection extends Struct.ComponentSchema {
     displayName: 'linkCollection';
   };
   attributes: {
-    text: Schema.Attribute.String & Schema.Attribute.Required;
+    label: Schema.Attribute.String & Schema.Attribute.Required;
     url: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }

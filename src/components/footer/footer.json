@@ -11,7 +11,10 @@
     "aboutContent": {
       "type": "blocks"
     },
-    "quickLinkTitle": {
+    "quickLinksTitle": {
+      "type": "string"
+    },
+    "contactTitle": {
       "type": "string"
     },
     "quickLinks": {
@@ -19,10 +22,10 @@
       "component": "footer.link-collection",
       "repeatable": true
     },
-    "contact": {
+    "contactLinks": {
       "type": "component",
       "component": "footer.link-collection",
-      "repeatable": false
+      "repeatable": true
     }
   },
   "config": {}
